@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23231" systemVersion="24A335" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Kullanici" representedClassName="Kullanici" syncable="YES" codeGenerationType="class">
+        <attribute name="ad" optional="YES" attributeType="String"/>
+        <attribute name="adres" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="isLogged" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="mail" optional="YES" attributeType="String"/>
+        <attribute name="sifre" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SepetModel" representedClassName="SepetModel" syncable="YES" codeGenerationType="class">
+        <attribute name="ad" optional="YES" attributeType="String"/>
+        <attribute name="adet" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fiyat" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="kategori" optional="YES" attributeType="String"/>
+        <attribute name="kullaniciAdi" optional="YES" attributeType="String"/>
+        <attribute name="marka" optional="YES" attributeType="String"/>
+        <attribute name="puan" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="resim" optional="YES" attributeType="String"/>
+        <attribute name="sepettemi" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="toplamFiyat" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="UrunlerModel" representedClassName="UrunlerModel" syncable="YES" codeGenerationType="class">
+        <attribute name="ad" optional="YES" attributeType="String"/>
+        <attribute name="adet" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fiyat" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="kategori" optional="YES" attributeType="String"/>
+        <attribute name="marka" optional="YES" attributeType="String"/>
+        <attribute name="puan" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="resim" optional="YES" attributeType="String"/>
+        <attribute name="toplamFiyat" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+</model>
