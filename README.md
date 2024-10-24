@@ -16,3 +16,12 @@ Bu proje, BTK Akademi final projesi olarak geliştirilen bir e-ticaret uygulamas
 - **MVVM (Model-View-ViewModel):** Uygulama mimarisi.
 - **Core Data:** Veri saklama ve yönetimi için kullanıldı.
 - **Alamofire:** Web servisleri ile iletişim için kullanıldı.
+
+## Ekran Görüntüleri
+
+![Kayıt Ol](https://github.com/semihbekdas/BTK-Akademi-Final-Projesi/blob/main/KayitOl.png)
+![Giriş Yap](https://github.com/semihbekdas/BTK-Akademi-Final-Projesi/blob/main/GirisYap.png)
+![Ana Sayfa](https://github.com/semihbekdas/BTK-Akademi-Final-Projesi/blob/main/Anasayfa.png)
+![Ürün Detayları](https://github.com/semihbekdas/BTK-Akademi-Final-Projesi/blob/main/UrunDetay.png)
+![Sepet](https://github.com/semihbekdas/BTK-Akademi-Final-Projesi/blob/main/Sepetim.png)
+![Hesabım](https://github.com/semihbekdas/BTK-Akademi-Final-Projesi/blob/main/Hesabim.png)
